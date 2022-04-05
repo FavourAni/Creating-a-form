@@ -1,0 +1,70 @@
+body{
+    background-image: url(image/class2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.thco{
+    width:100px;
+}
+    
+    #hello{
+    background-color: #fff;
+    min-width: 450px;
+    padding: 40px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px black;
+    margin: 25px 0px;
+    opacity: 0.8;
+
+}
+
+input{
+    text-align: center;
+}
+.first{
+    margin: 15px 5px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 4em;
+    padding: 10px; 
+}
+.ter{
+    padding: 5px;
+}
+
+.foot{
+    display: flex;
+    margin: 20px 20px;
+    
+
+}
+.icon{
+    width: 30px;
+    padding: 15px;
+}
+.mumu{
+   background-color: blue;
+   padding: 10px 50px 10px 50px;
+   border: none;
+   color: white;
+   font-weight: bold;
+   border-radius: 15px;
+   margin-top: 15px;
+}
+.mumu:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
